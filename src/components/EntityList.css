@@ -1,14 +1,12 @@
 .entity-list-container {
-    max-width: 800px; /* Adjust the max-width as needed */
-    margin: auto;
+    max-width: 600px;
+    margin: 0 auto;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #fff;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
   }
   
   h2 {

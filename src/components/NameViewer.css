@@ -1,0 +1,33 @@
+/* src/App.css */
+
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .name-display {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .name-viewer {
+    margin-top: 50px;
+  }
+  
+  .name-viewer h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .name-viewer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .name-viewer li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  

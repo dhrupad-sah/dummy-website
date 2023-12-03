@@ -5,8 +5,8 @@ import entityReducer from "./store/reducers";
 import Form from "./components/Form";
 import EntityList from "./components/EntityList";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
 import "./App.css";
+import NameDisplay from "./components/NameDisplay";
 
 const store = createStore(entityReducer);
 
@@ -23,8 +23,8 @@ const App = () => {
         <div className="app-container">
           <Form addEntity={addEntity} />
           <EntityList />
+          <NameDisplay />
         </div>
-        <Footer />
       </div>
     </Provider>
   );
