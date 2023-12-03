@@ -1,0 +1,22 @@
+.entity-item {
+    
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .entity-info {
+    padding: 15px;
+  }
+  
+  .entity-info div {
+    margin-bottom: 10px;
+  }
+  
+  .entity-item:hover {
+    background-color: #f0f0f0;
+  }
+  
